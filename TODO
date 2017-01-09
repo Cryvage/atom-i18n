@@ -1,29 +1,30 @@
 * [x] understand basic ideas
     * [x] how content is changed
 
-* [ ] porting to empty package
+* [x] porting to empty package
     - preparation of empty package
         [x] activate this package
         [x] add configSchema in package.json (https://atom.io/docs/api/v1.12.9/Config)
         [x] rm -rf menus/* keymaps/* styles/*
         [x] add .eslintrc, coffeelint.json
         [x] add CONTRIBUTING.md
-        [ ] update README.md
+        [x] update README.md
     [x] copy package.json
 
 * [x] create common interface for any lang
     * [x] def-LOCALE (best to have)
-    * [ ] template of cson for contributor
+    * [x] prepare template of cson for contributor
 
 --- MileStone 1 (v0.1)
 
-* [ ] add api to switch to other language by Environment
-    * [ ] prompt user to restart on locale change
-    * [ ] add screenshot (menu, context-menu, setting page) to README.md
+* [x] add api to switch to other language by package config
+    * [x] prompt user to restart on locale change
+    * [x] add screenshot (menu, context-menu, setting page) to README.md
 
 * [ ] translate more content
+    * [ ] welcome-page
     * [ ] about-page
-    * [ ] goto
+    * [ ] goto line number
     * [ ] deprecation
     * [ ] timecop
     * [ ] style-guide
